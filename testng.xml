@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		      <class name="functional_testing.Login"/>
+		            <class name="functional_testing.Search"/>
+		                  <class name="functional_testing.Cart"/>
+		                        <class name="functional_testing.MyPets"/>
+		                              <class name="functional_testing.Blogs"/>
+		                                    <class name="functional_testing.ShopByPet"/>
+		                                          <class name="functional_testing.Logoutuser"/>
+
+
+
+		                        
+
+
+
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
